@@ -22,7 +22,7 @@ class Manager extends CI_Controller
         $data['supplier'] = $this->dashboard->_supplier();
         $data['barang'] = $this->dashboard->_barang();
         $data['pengajuan'] = $this->dashboard->_pengajuan();
-        $data['teks'] = "Halaman manager Sistem Persedian Barang Gamalama Indah Hotel, manager dapat melihat data pengajuan barang memutuskan apakah layak di approve atau tidak dan manager dapat melihat data ketersediaan barang";
+        $data['teks'] = "Halaman manager Sistem Persedian Barang CV. Natural Media, manager dapat melihat data pengajuan barang memutuskan apakah layak di approve atau tidak dan manager dapat melihat data ketersediaan barang";
         $data['role'] = 'Manager';
         $data['judul'] = 'Dashboard';
         $this->load->view('temp/header', $data);

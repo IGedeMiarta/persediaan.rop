@@ -22,7 +22,7 @@ class Pegawai extends CI_Controller
         $data['supplier'] = $this->dashboard->_supplier();
         $data['barang'] = $this->dashboard->_barang();
         $data['pengajuan'] = $this->dashboard->_pengajuan();
-        $data['teks'] = "Halaman Pegawai Sistem Persedian Barang Gamalama Indah Hotel, pegawai dapat menajemen data barang, menginputkan data barang masuk, keluar, manajeman stok dan Melakukan Pengajuan Barang";
+        $data['teks'] = "Halaman Pegawai Sistem Persedian Barang CV. Natural Media, pegawai dapat memanajemen data barang, menginputkan data barang masuk, keluar, manajeman stok dan Melakukan Pengajuan Barang";
         $data['role'] = 'Pegawai';
         $data['judul'] = 'Dashboard';
         $data['aju'] = $this->pegawai->dashboard_aju();

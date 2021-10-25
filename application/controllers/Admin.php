@@ -25,7 +25,7 @@ class Admin extends CI_Controller
         $data['supplier'] = $this->dashboard->_supplier();
         $data['barang'] = $this->dashboard->_barang();
         $data['pengajuan'] = $this->dashboard->_pengajuan();
-        $data['teks'] = "Halaman Admin Sistem Persedian Barang Gamalama Indah Hotel, admin dapat menambah pegawai dengan menginputkan data pegawai, mendaftarkan pegawai sebagai user untuk dapat login ke sistem sebagai pegawai";
+        $data['teks'] = "Halaman Admin Sistem Persedian Barang CV. Natural Media, admin dapat menambah pegawai dengan menginputkan data pegawai, mendaftarkan pegawai sebagai user untuk dapat login ke sistem sebagai pegawai";
         $data['role'] = 'Admin';
         $data['judul'] = 'Dashboard';
         $data['aju'] = $this->pegawai->dashboard_aju();
