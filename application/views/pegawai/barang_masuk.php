@@ -146,7 +146,8 @@
                          <div class="form-group row">
                              <label for="example-text-input" class="col-sm-3 col-form-label">Stok </label>
                              <div class="col-sm-8">
-                                 <input type="text" class="form-control" id="stok" name="stok" placeholder="stok" readonly>
+                                 <input type="hidden" class="form-control" id="stok" name="stok" placeholder="stok" readonly>
+                                 <input type="text" class="form-control" name="" id="stokbarang" placeholder="stok" readonly>
                              </div>
                          </div>
                          <div class="form-group row">

@@ -87,6 +87,7 @@
                 var hasil = JSON.parse(data);
                 $.each(hasil, function(key, val) {
                     document.getElementById('stok').value = val.stok;
+                    $('#stokbarang').val(val.stok +' '+val.satuan)
                     document.getElementById('satuan').value = val.satuan;
                 });
             }
