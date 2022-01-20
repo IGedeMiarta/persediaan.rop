@@ -220,7 +220,7 @@
                     <ul class="nav nav-treeview">
                         <li class="nav-item">
                             <a href="" class="nav-link">
-                                <!-- <a href="<?= base_url('report/bahan_masuk') ?>" class="nav-link"> -->
+                                <a href="<?= base_url('report/bahan_masuk') ?>" class="nav-link">
                                 <i class="far fa-circle nav-icon mr-4"></i>
                                 <p>Laporan Barang Masuk</p>
                             </a>
@@ -230,7 +230,7 @@
                         <li class="nav-item">
                             <a href="" class="nav-link">
 
-                                <!-- <a href="<?= base_url('report/bahan_keluar') ?>" class="nav-link"> -->
+                                <a href="<?= base_url('report/bahan_keluar') ?>" class="nav-link">
                                 <i class="far fa-circle nav-icon mr-4"></i>
                                 <p>Laporan Barang Keluar</p>
                             </a>
@@ -240,7 +240,7 @@
                         <li class="nav-item">
                             <a href="" class="nav-link">
 
-                                <!-- <a href="<?= base_url('report/pengajuan') ?>" class="nav-link"> -->
+                                <a href="<?= base_url('report/pengajuan') ?>" class="nav-link">
                                 <i class="far fa-circle nav-icon mr-4"></i>
                                 <p>Laporan Pengajuan</p>
                             </a>

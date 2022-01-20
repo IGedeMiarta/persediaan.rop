@@ -36,7 +36,8 @@
                  </div>
                  <div class="card-body">
                      <button type="button" class="btn btn-success float-right" data-toggle="modal" data-target="#tambah_data">
-                         Tambah Barang
+                                                 Transaksi Barang Masuk 
+
                      </button>
                  </div>
                  <div class="card-body">
