@@ -4,7 +4,9 @@
 <head>
     <table class="table table-borderless table-condensed table-hover" width="100%">
         <tr>
-            <td width="13%" align="center"><img src="<?= base_url('assets/logo/logo.png') ?>" alt="logo" style="width:130px;height:120px;"></td>
+            <td width="13%" align="center">
+                <!-- <img src="<?= base_url('assets/logo/logo.png') ?>" alt="logo" style="width:130px;height:120px;"> -->
+            </td>
 
             <td width="74%" align="center">
                 <p class="kecil">
