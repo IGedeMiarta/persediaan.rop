@@ -35,7 +35,9 @@ class Report extends CI_Controller
 
             $data['masuk'] = $this->laporan->tgl_masuk($mulai, $sampai);
 
+            $this->load->view('laporan/cetak/header', $data);
             $this->load->view('laporan/cetak/masuk_cetak', $data);
+            $this->load->view('laporan/cetak/footer');
         } else {
             redirect('report/bahan_masuk');
         }
@@ -65,8 +67,9 @@ class Report extends CI_Controller
             // mengambil data peminjaman berdasarkan tanggal mulai sampai tanggal sampai
 
             $data['keluar'] = $this->laporan->tgl_keluar($mulai, $sampai);
-
+            $this->load->view('laporan/cetak/header', $data);
             $this->load->view('laporan/cetak/keluar_cetak', $data);
+            $this->load->view('laporan/cetak/footer');
         } else {
             redirect('report/bahan_keluar');
         }
@@ -96,8 +99,9 @@ class Report extends CI_Controller
             // mengambil data peminjaman berdasarkan tanggal mulai sampai tanggal sampai
 
             $data['status'] = $this->laporan->tgl_pemesanan($mulai, $sampai);
-
+            $this->load->view('laporan/cetak/header', $data);
             $this->load->view('laporan/cetak/pengajuan_cetak', $data);
+            $this->load->view('laporan/cetak/footer');
         } else {
             redirect('report/pengajuan');
         }
