@@ -21,6 +21,7 @@
         <tbody>
             <?php
             $no = 1;
+            $total = 0;
             foreach ($masuk as $b) { ?>
                 <tr>
                     <th width="10px" scope="row"><?= $no++ ?></th>
@@ -31,9 +32,16 @@
                     <td><?= $b->jumlah . ' ' . $b->satuan ?></td>
                     <td><?= $b->harga ?></td>
                     <td><?= $b->pegawai ?></td>
-
                 </tr>
+                <?php $total += $b->harga;?>
             <?php } ?>
         </tbody>
+        <tfoot>
+            <tr>
+                <th colspan="6" class="text-end">Total</th>
+                <th><?= $total ?></th>
+                <th></th>
+            </tr>
+        </tfoot>
     </table>
     
